@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.quiz-form{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+.quiz{
+    background-color: palevioletred;
+    padding: 30px;
+}
+
+.heading .title{
+    font-size: 28px;
+    color: #f1f1f1;
+    font-weight: 500;
+    text-align: center;
+}
+
+.heading .subtitle{
+    font-size: 20px;
+    color: #f1f1f1;
+    font-weight: 500;
+    text-align: center;
+}
+
+.heading{
+    margin: 10px auto 40px auto;
+}
+
+.result p:first-child{
+    padding: 10px 20px;
+}
+.result{
+    text-align: center;
+    min-width: 350px;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 6px;
+    background-color: blue;
+    box-shadow: rgba(0, 0, 0, 0.24);
+    color: #f1f1f1;
+}
+
+.hide{
+    display: none;
+}
+
+.reload button{
+    background-color:#f1f1f1;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+    border: 0px;
+}
+
+.reload button:hover{
+    background-color: darkorchid;
+    cursor: pointer;
+    color: #f1f1f1;
+}
+
+.question{
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin: 20px 0px;
+    box-shadow: #000;
+
+}
+
+.question > *{
+    font-size: 18px;
+}
+
+.option{
+    margin-left: 10px;
+}
+
+.submit{
+    text-align: center;
+    margin: 30;
+}
+
+.submit input{
+    background-color: blue;
+    padding: 5px 25px;
+    color: #f1f1f1;
+    font-size: 22px;
+    border-radius: 6px;
+    border: 0px;
+    box-shadow: #000;
+    cursor: pointer;
+    width: 20%;
+}
+
+.submit input:hover{
+    background-color: blueviolet;
+}
+
+.correct{
+    background-color: aqua;
+}
+
+.wrong{
+    background-color: orangered;
+}
